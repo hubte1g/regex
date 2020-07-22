@@ -1,0 +1,18 @@
+//
+((.*?)id=(.*?)&)((.*?)ap=(.*?)&)((.*?)event=(.*?)$)
+OR
+(?<=event=)(.*?)(?=\")
+https://www.www.com/?id=9999999&ap=dlkfhaslfadd&event=98765fgh3456hj8k
+
+//
+(\..*)
+a brand new filename.txt
+
+//
+(?<=<doc_filename>) // Look-behind group to require opening tag
+(.*?)               // Capture any characters, lazily
+(?=</doc_filename>) // Look-ahead group to require closing tag
+
+<doc_filename>file1.docx</doc_filename>
+
+<doc_filename>file2.ppx</doc_filename>
