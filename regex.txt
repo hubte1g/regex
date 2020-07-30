@@ -16,3 +16,5 @@ a brand new filename.txt
 <doc_filename>file1.docx</doc_filename>
 
 <doc_filename>file2.ppx</doc_filename>
+
+It’s like, Hey we need to rebuild this system in another thing! Let’s do it exactly the way it was in the old thing, but in the new thing! Wait, do we really need to do the stuff that the old thing does? Not sure, .. well, a lot has changed since then. Let’s do it anyway!!
